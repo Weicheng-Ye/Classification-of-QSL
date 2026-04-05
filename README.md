@@ -5,7 +5,7 @@
 
 ## Content
 
-This repository contains 
+This repository contains the source code and data for the classification of symmetry-enriched topological quantum spin liquids.
 
 
 ## Reference
