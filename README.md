@@ -27,7 +27,15 @@ Install the prerequisites once:
   then follow the Ubuntu instructions and run the commands below inside WSL.
   Keep both downloaded folders inside that Linux environment.
 
-Unzip the two downloads alongside each other, for example:
+Get the companion `umtc` package from
+[Weicheng-Ye/umtc](https://github.com/Weicheng-Ye/umtc.git). Download it using
+**Code → Download ZIP**, or run this command from your `QSLClassification` folder:
+
+```sh
+git clone https://github.com/Weicheng-Ye/umtc.git ../umtc
+```
+
+For ZIP downloads, unzip the two folders alongside each other, for example:
 
 ```text
 Downloads/
