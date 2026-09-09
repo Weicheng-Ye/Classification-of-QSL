@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qsl-classification"
+version = "0.1.0"
+description = "Symmetry enrichment and anomaly matching for UMTC JSON data"
+requires-python = ">=3.10"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+dependencies = ["umtc-data>=0.4", "numpy>=1.24", "sympy>=1.14"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+qsl-classify = "qsl_classification.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
