@@ -1,0 +1,5052 @@
+{
+  "complete": true,
+  "passed": false,
+  "case_count": 276,
+  "seconds": 184.173,
+  "cases": [
+    {
+      "category": "u1_2",
+      "group": "p4*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Table V",
+      "expected": 9,
+      "observed": 9,
+      "expected_per_homomorphism": [
+        9
+      ],
+      "observed_per_homomorphism": [
+        9
+      ],
+      "passed": true,
+      "seconds": 0.014
+    },
+    {
+      "category": "u1_2",
+      "group": "p4*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Table V",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_2",
+      "group": "p4*SO(3)",
+      "lattice": "b",
+      "source": "2309.15118 Table V",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_2",
+      "group": "p4*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Table V",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_2",
+      "group": "p4*SO(3)",
+      "lattice": "a+b",
+      "source": "2309.15118 Table V",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_2",
+      "group": "p4*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Table V",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_2",
+      "group": "p4*SO(3)",
+      "lattice": "b+c",
+      "source": "2309.15118 Table V",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_2",
+      "group": "p4*SO(3)",
+      "lattice": "a+b+c",
+      "source": "2309.15118 Table V",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_2",
+      "group": "p6*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Table V",
+      "expected": 5,
+      "observed": 5,
+      "expected_per_homomorphism": [
+        5
+      ],
+      "observed_per_homomorphism": [
+        5
+      ],
+      "passed": true,
+      "seconds": 0.002
+    },
+    {
+      "category": "u1_2",
+      "group": "p6*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Table V",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_2",
+      "group": "p6*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Table V",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_2",
+      "group": "p6*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Table V",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_4",
+      "group": "p4*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Table V",
+      "expected": 76,
+      "observed": 76,
+      "expected_per_homomorphism": [
+        24,
+        12,
+        20,
+        20
+      ],
+      "observed_per_homomorphism": [
+        24,
+        12,
+        20,
+        20
+      ],
+      "passed": true,
+      "seconds": 0.797
+    },
+    {
+      "category": "u1_4",
+      "group": "p4*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Table V",
+      "expected": 6,
+      "observed": 6,
+      "expected_per_homomorphism": [
+        2,
+        0,
+        4,
+        0
+      ],
+      "observed_per_homomorphism": [
+        2,
+        0,
+        4,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_4",
+      "group": "p4*SO(3)",
+      "lattice": "b",
+      "source": "2309.15118 Table V",
+      "expected": 6,
+      "observed": 6,
+      "expected_per_homomorphism": [
+        2,
+        0,
+        0,
+        4
+      ],
+      "observed_per_homomorphism": [
+        2,
+        0,
+        0,
+        4
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_4",
+      "group": "p4*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Table V",
+      "expected": 8,
+      "observed": 8,
+      "expected_per_homomorphism": [
+        4,
+        4,
+        0,
+        0
+      ],
+      "observed_per_homomorphism": [
+        4,
+        4,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_4",
+      "group": "p4*SO(3)",
+      "lattice": "a+b",
+      "source": "2309.15118 Table V",
+      "expected": 2,
+      "observed": 2,
+      "expected_per_homomorphism": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "observed_per_homomorphism": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_4",
+      "group": "p4*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Table V",
+      "expected": 2,
+      "observed": 2,
+      "expected_per_homomorphism": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "observed_per_homomorphism": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_4",
+      "group": "p4*SO(3)",
+      "lattice": "b+c",
+      "source": "2309.15118 Table V",
+      "expected": 2,
+      "observed": 2,
+      "expected_per_homomorphism": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "observed_per_homomorphism": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_4",
+      "group": "p4*SO(3)",
+      "lattice": "a+b+c",
+      "source": "2309.15118 Table V",
+      "expected": 2,
+      "observed": 2,
+      "expected_per_homomorphism": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "observed_per_homomorphism": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_4",
+      "group": "p6*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Table V",
+      "expected": 16,
+      "observed": 16,
+      "expected_per_homomorphism": [
+        8,
+        8
+      ],
+      "observed_per_homomorphism": [
+        8,
+        8
+      ],
+      "passed": true,
+      "seconds": 0.005
+    },
+    {
+      "category": "u1_4",
+      "group": "p6*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Table V",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1,
+        0
+      ],
+      "observed_per_homomorphism": [
+        1,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_4",
+      "group": "p6*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Table V",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1,
+        0
+      ],
+      "observed_per_homomorphism": [
+        1,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_4",
+      "group": "p6*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Table V",
+      "expected": 2,
+      "observed": 2,
+      "expected_per_homomorphism": [
+        2,
+        0
+      ],
+      "observed_per_homomorphism": [
+        2,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_6",
+      "group": "p4*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Table V",
+      "expected": 45,
+      "observed": 45,
+      "expected_per_homomorphism": [
+        18,
+        9,
+        9,
+        9
+      ],
+      "observed_per_homomorphism": [
+        18,
+        9,
+        9,
+        9
+      ],
+      "passed": true,
+      "seconds": 0.021
+    },
+    {
+      "category": "u1_6",
+      "group": "p4*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Table V",
+      "expected": 5,
+      "observed": 5,
+      "expected_per_homomorphism": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "observed_per_homomorphism": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_6",
+      "group": "p4*SO(3)",
+      "lattice": "b",
+      "source": "2309.15118 Table V",
+      "expected": 5,
+      "observed": 5,
+      "expected_per_homomorphism": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "observed_per_homomorphism": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_6",
+      "group": "p4*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Table V",
+      "expected": 5,
+      "observed": 5,
+      "expected_per_homomorphism": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "observed_per_homomorphism": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_6",
+      "group": "p4*SO(3)",
+      "lattice": "a+b",
+      "source": "2309.15118 Table V",
+      "expected": 5,
+      "observed": 5,
+      "expected_per_homomorphism": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "observed_per_homomorphism": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_6",
+      "group": "p4*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Table V",
+      "expected": 5,
+      "observed": 5,
+      "expected_per_homomorphism": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "observed_per_homomorphism": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_6",
+      "group": "p4*SO(3)",
+      "lattice": "b+c",
+      "source": "2309.15118 Table V",
+      "expected": 5,
+      "observed": 5,
+      "expected_per_homomorphism": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "observed_per_homomorphism": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_6",
+      "group": "p4*SO(3)",
+      "lattice": "a+b+c",
+      "source": "2309.15118 Table V",
+      "expected": 5,
+      "observed": 5,
+      "expected_per_homomorphism": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "observed_per_homomorphism": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_6",
+      "group": "p6*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Table V",
+      "expected": 30,
+      "observed": 35,
+      "expected_per_homomorphism": [
+        25,
+        5
+      ],
+      "observed_per_homomorphism": [
+        25,
+        10
+      ],
+      "passed": false,
+      "seconds": 0.005
+    },
+    {
+      "category": "u1_6",
+      "group": "p6*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Table V",
+      "expected": 6,
+      "observed": 7,
+      "expected_per_homomorphism": [
+        5,
+        1
+      ],
+      "observed_per_homomorphism": [
+        5,
+        2
+      ],
+      "passed": false,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_6",
+      "group": "p6*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Table V",
+      "expected": 6,
+      "observed": 7,
+      "expected_per_homomorphism": [
+        5,
+        1
+      ],
+      "observed_per_homomorphism": [
+        5,
+        2
+      ],
+      "passed": false,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_6",
+      "group": "p6*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Table V",
+      "expected": 6,
+      "observed": 7,
+      "expected_per_homomorphism": [
+        5,
+        1
+      ],
+      "observed_per_homomorphism": [
+        5,
+        2
+      ],
+      "passed": false,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_8",
+      "group": "p4*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Table V",
+      "expected": 94,
+      "observed": 94,
+      "expected_per_homomorphism": [
+        42,
+        12,
+        20,
+        20
+      ],
+      "observed_per_homomorphism": [
+        42,
+        12,
+        20,
+        20
+      ],
+      "passed": true,
+      "seconds": 0.031
+    },
+    {
+      "category": "u1_8",
+      "group": "p4*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Table V",
+      "expected": 8,
+      "observed": 8,
+      "expected_per_homomorphism": [
+        4,
+        0,
+        4,
+        0
+      ],
+      "observed_per_homomorphism": [
+        4,
+        0,
+        4,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_8",
+      "group": "p4*SO(3)",
+      "lattice": "b",
+      "source": "2309.15118 Table V",
+      "expected": 8,
+      "observed": 8,
+      "expected_per_homomorphism": [
+        4,
+        0,
+        0,
+        4
+      ],
+      "observed_per_homomorphism": [
+        4,
+        0,
+        0,
+        4
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_8",
+      "group": "p4*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Table V",
+      "expected": 10,
+      "observed": 10,
+      "expected_per_homomorphism": [
+        6,
+        4,
+        0,
+        0
+      ],
+      "observed_per_homomorphism": [
+        6,
+        4,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_8",
+      "group": "p4*SO(3)",
+      "lattice": "a+b",
+      "source": "2309.15118 Table V",
+      "expected": 4,
+      "observed": 4,
+      "expected_per_homomorphism": [
+        4,
+        0,
+        0,
+        0
+      ],
+      "observed_per_homomorphism": [
+        4,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_8",
+      "group": "p4*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Table V",
+      "expected": 4,
+      "observed": 4,
+      "expected_per_homomorphism": [
+        4,
+        0,
+        0,
+        0
+      ],
+      "observed_per_homomorphism": [
+        4,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_8",
+      "group": "p4*SO(3)",
+      "lattice": "b+c",
+      "source": "2309.15118 Table V",
+      "expected": 4,
+      "observed": 4,
+      "expected_per_homomorphism": [
+        4,
+        0,
+        0,
+        0
+      ],
+      "observed_per_homomorphism": [
+        4,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_8",
+      "group": "p4*SO(3)",
+      "lattice": "a+b+c",
+      "source": "2309.15118 Table V",
+      "expected": 4,
+      "observed": 4,
+      "expected_per_homomorphism": [
+        4,
+        0,
+        0,
+        0
+      ],
+      "observed_per_homomorphism": [
+        4,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_8",
+      "group": "p6*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Table V",
+      "expected": 21,
+      "observed": 21,
+      "expected_per_homomorphism": [
+        13,
+        8
+      ],
+      "observed_per_homomorphism": [
+        13,
+        8
+      ],
+      "passed": true,
+      "seconds": 0.005
+    },
+    {
+      "category": "u1_8",
+      "group": "p6*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Table V",
+      "expected": 2,
+      "observed": 2,
+      "expected_per_homomorphism": [
+        2,
+        0
+      ],
+      "observed_per_homomorphism": [
+        2,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_8",
+      "group": "p6*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Table V",
+      "expected": 2,
+      "observed": 2,
+      "expected_per_homomorphism": [
+        2,
+        0
+      ],
+      "observed_per_homomorphism": [
+        2,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_8",
+      "group": "p6*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Table V",
+      "expected": 3,
+      "observed": 3,
+      "expected_per_homomorphism": [
+        3,
+        0
+      ],
+      "observed_per_homomorphism": [
+        3,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_10",
+      "group": "p4*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Table V",
+      "expected": 54,
+      "observed": 54,
+      "expected_per_homomorphism": [
+        27,
+        9,
+        9,
+        9
+      ],
+      "observed_per_homomorphism": [
+        27,
+        9,
+        9,
+        9
+      ],
+      "passed": true,
+      "seconds": 0.05
+    },
+    {
+      "category": "u1_10",
+      "group": "p4*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Table V",
+      "expected": 6,
+      "observed": 6,
+      "expected_per_homomorphism": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "observed_per_homomorphism": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_10",
+      "group": "p4*SO(3)",
+      "lattice": "b",
+      "source": "2309.15118 Table V",
+      "expected": 6,
+      "observed": 6,
+      "expected_per_homomorphism": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "observed_per_homomorphism": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_10",
+      "group": "p4*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Table V",
+      "expected": 6,
+      "observed": 6,
+      "expected_per_homomorphism": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "observed_per_homomorphism": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_10",
+      "group": "p4*SO(3)",
+      "lattice": "a+b",
+      "source": "2309.15118 Table V",
+      "expected": 6,
+      "observed": 6,
+      "expected_per_homomorphism": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "observed_per_homomorphism": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_10",
+      "group": "p4*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Table V",
+      "expected": 6,
+      "observed": 6,
+      "expected_per_homomorphism": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "observed_per_homomorphism": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_10",
+      "group": "p4*SO(3)",
+      "lattice": "b+c",
+      "source": "2309.15118 Table V",
+      "expected": 6,
+      "observed": 6,
+      "expected_per_homomorphism": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "observed_per_homomorphism": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_10",
+      "group": "p4*SO(3)",
+      "lattice": "a+b+c",
+      "source": "2309.15118 Table V",
+      "expected": 6,
+      "observed": 6,
+      "expected_per_homomorphism": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "observed_per_homomorphism": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_10",
+      "group": "p6*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Table V",
+      "expected": 20,
+      "observed": 20,
+      "expected_per_homomorphism": [
+        15,
+        5
+      ],
+      "observed_per_homomorphism": [
+        15,
+        5
+      ],
+      "passed": true,
+      "seconds": 0.005
+    },
+    {
+      "category": "u1_10",
+      "group": "p6*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Table V",
+      "expected": 4,
+      "observed": 4,
+      "expected_per_homomorphism": [
+        3,
+        1
+      ],
+      "observed_per_homomorphism": [
+        3,
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_10",
+      "group": "p6*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Table V",
+      "expected": 4,
+      "observed": 4,
+      "expected_per_homomorphism": [
+        3,
+        1
+      ],
+      "observed_per_homomorphism": [
+        3,
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_10",
+      "group": "p6*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Table V",
+      "expected": 4,
+      "observed": 4,
+      "expected_per_homomorphism": [
+        3,
+        1
+      ],
+      "observed_per_homomorphism": [
+        3,
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu1",
+      "group": "p4*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Sec. VII",
+      "expected": 16,
+      "observed": 16,
+      "expected_per_homomorphism": [
+        16
+      ],
+      "observed_per_homomorphism": [
+        16
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "ising_nu1",
+      "group": "p4*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu1",
+      "group": "p4*SO(3)",
+      "lattice": "b",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu1",
+      "group": "p4*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu1",
+      "group": "p4*SO(3)",
+      "lattice": "a+b",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu1",
+      "group": "p4*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu1",
+      "group": "p4*SO(3)",
+      "lattice": "b+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu1",
+      "group": "p4*SO(3)",
+      "lattice": "a+b+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu1",
+      "group": "p6*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Sec. VII",
+      "expected": 8,
+      "observed": 8,
+      "expected_per_homomorphism": [
+        8
+      ],
+      "observed_per_homomorphism": [
+        8
+      ],
+      "passed": true,
+      "seconds": 0.002
+    },
+    {
+      "category": "ising_nu1",
+      "group": "p6*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu1",
+      "group": "p6*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu1",
+      "group": "p6*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu3",
+      "group": "p4*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Sec. VII",
+      "expected": 16,
+      "observed": 16,
+      "expected_per_homomorphism": [
+        16
+      ],
+      "observed_per_homomorphism": [
+        16
+      ],
+      "passed": true,
+      "seconds": 0.004
+    },
+    {
+      "category": "ising_nu3",
+      "group": "p4*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu3",
+      "group": "p4*SO(3)",
+      "lattice": "b",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu3",
+      "group": "p4*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu3",
+      "group": "p4*SO(3)",
+      "lattice": "a+b",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu3",
+      "group": "p4*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu3",
+      "group": "p4*SO(3)",
+      "lattice": "b+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu3",
+      "group": "p4*SO(3)",
+      "lattice": "a+b+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu3",
+      "group": "p6*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Sec. VII",
+      "expected": 8,
+      "observed": 8,
+      "expected_per_homomorphism": [
+        8
+      ],
+      "observed_per_homomorphism": [
+        8
+      ],
+      "passed": true,
+      "seconds": 0.002
+    },
+    {
+      "category": "ising_nu3",
+      "group": "p6*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu3",
+      "group": "p6*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu3",
+      "group": "p6*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu5",
+      "group": "p4*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Sec. VII",
+      "expected": 16,
+      "observed": 16,
+      "expected_per_homomorphism": [
+        16
+      ],
+      "observed_per_homomorphism": [
+        16
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "ising_nu5",
+      "group": "p4*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu5",
+      "group": "p4*SO(3)",
+      "lattice": "b",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu5",
+      "group": "p4*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu5",
+      "group": "p4*SO(3)",
+      "lattice": "a+b",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu5",
+      "group": "p4*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu5",
+      "group": "p4*SO(3)",
+      "lattice": "b+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu5",
+      "group": "p4*SO(3)",
+      "lattice": "a+b+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu5",
+      "group": "p6*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Sec. VII",
+      "expected": 8,
+      "observed": 8,
+      "expected_per_homomorphism": [
+        8
+      ],
+      "observed_per_homomorphism": [
+        8
+      ],
+      "passed": true,
+      "seconds": 0.002
+    },
+    {
+      "category": "ising_nu5",
+      "group": "p6*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu5",
+      "group": "p6*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu5",
+      "group": "p6*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu7",
+      "group": "p4*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Sec. VII",
+      "expected": 16,
+      "observed": 16,
+      "expected_per_homomorphism": [
+        16
+      ],
+      "observed_per_homomorphism": [
+        16
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "ising_nu7",
+      "group": "p4*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu7",
+      "group": "p4*SO(3)",
+      "lattice": "b",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu7",
+      "group": "p4*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu7",
+      "group": "p4*SO(3)",
+      "lattice": "a+b",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu7",
+      "group": "p4*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu7",
+      "group": "p4*SO(3)",
+      "lattice": "b+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu7",
+      "group": "p4*SO(3)",
+      "lattice": "a+b+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu7",
+      "group": "p6*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Sec. VII",
+      "expected": 8,
+      "observed": 8,
+      "expected_per_homomorphism": [
+        8
+      ],
+      "observed_per_homomorphism": [
+        8
+      ],
+      "passed": true,
+      "seconds": 0.002
+    },
+    {
+      "category": "ising_nu7",
+      "group": "p6*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu7",
+      "group": "p6*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu7",
+      "group": "p6*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu9",
+      "group": "p4*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Sec. VII",
+      "expected": 16,
+      "observed": 16,
+      "expected_per_homomorphism": [
+        16
+      ],
+      "observed_per_homomorphism": [
+        16
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "ising_nu9",
+      "group": "p4*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu9",
+      "group": "p4*SO(3)",
+      "lattice": "b",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu9",
+      "group": "p4*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu9",
+      "group": "p4*SO(3)",
+      "lattice": "a+b",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu9",
+      "group": "p4*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu9",
+      "group": "p4*SO(3)",
+      "lattice": "b+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu9",
+      "group": "p4*SO(3)",
+      "lattice": "a+b+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu9",
+      "group": "p6*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Sec. VII",
+      "expected": 8,
+      "observed": 8,
+      "expected_per_homomorphism": [
+        8
+      ],
+      "observed_per_homomorphism": [
+        8
+      ],
+      "passed": true,
+      "seconds": 0.002
+    },
+    {
+      "category": "ising_nu9",
+      "group": "p6*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu9",
+      "group": "p6*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu9",
+      "group": "p6*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu11",
+      "group": "p4*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Sec. VII",
+      "expected": 16,
+      "observed": 16,
+      "expected_per_homomorphism": [
+        16
+      ],
+      "observed_per_homomorphism": [
+        16
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "ising_nu11",
+      "group": "p4*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu11",
+      "group": "p4*SO(3)",
+      "lattice": "b",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu11",
+      "group": "p4*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu11",
+      "group": "p4*SO(3)",
+      "lattice": "a+b",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu11",
+      "group": "p4*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu11",
+      "group": "p4*SO(3)",
+      "lattice": "b+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu11",
+      "group": "p4*SO(3)",
+      "lattice": "a+b+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu11",
+      "group": "p6*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Sec. VII",
+      "expected": 8,
+      "observed": 8,
+      "expected_per_homomorphism": [
+        8
+      ],
+      "observed_per_homomorphism": [
+        8
+      ],
+      "passed": true,
+      "seconds": 0.002
+    },
+    {
+      "category": "ising_nu11",
+      "group": "p6*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu11",
+      "group": "p6*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu11",
+      "group": "p6*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu13",
+      "group": "p4*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Sec. VII",
+      "expected": 16,
+      "observed": 16,
+      "expected_per_homomorphism": [
+        16
+      ],
+      "observed_per_homomorphism": [
+        16
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "ising_nu13",
+      "group": "p4*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu13",
+      "group": "p4*SO(3)",
+      "lattice": "b",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu13",
+      "group": "p4*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu13",
+      "group": "p4*SO(3)",
+      "lattice": "a+b",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu13",
+      "group": "p4*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu13",
+      "group": "p4*SO(3)",
+      "lattice": "b+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu13",
+      "group": "p4*SO(3)",
+      "lattice": "a+b+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu13",
+      "group": "p6*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Sec. VII",
+      "expected": 8,
+      "observed": 8,
+      "expected_per_homomorphism": [
+        8
+      ],
+      "observed_per_homomorphism": [
+        8
+      ],
+      "passed": true,
+      "seconds": 0.002
+    },
+    {
+      "category": "ising_nu13",
+      "group": "p6*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu13",
+      "group": "p6*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu13",
+      "group": "p6*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu15",
+      "group": "p4*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Sec. VII",
+      "expected": 16,
+      "observed": 16,
+      "expected_per_homomorphism": [
+        16
+      ],
+      "observed_per_homomorphism": [
+        16
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "ising_nu15",
+      "group": "p4*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu15",
+      "group": "p4*SO(3)",
+      "lattice": "b",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu15",
+      "group": "p4*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu15",
+      "group": "p4*SO(3)",
+      "lattice": "a+b",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu15",
+      "group": "p4*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu15",
+      "group": "p4*SO(3)",
+      "lattice": "b+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu15",
+      "group": "p4*SO(3)",
+      "lattice": "a+b+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu15",
+      "group": "p6*SO(3)",
+      "lattice": "0",
+      "source": "2309.15118 Sec. VII",
+      "expected": 8,
+      "observed": 8,
+      "expected_per_homomorphism": [
+        8
+      ],
+      "observed_per_homomorphism": [
+        8
+      ],
+      "passed": true,
+      "seconds": 0.002
+    },
+    {
+      "category": "ising_nu15",
+      "group": "p6*SO(3)",
+      "lattice": "a",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu15",
+      "group": "p6*SO(3)",
+      "lattice": "c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "ising_nu15",
+      "group": "p6*SO(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Sec. VII",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k1",
+      "group": "p4*SO(3)",
+      "lattice": "0",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 9,
+      "observed": 9,
+      "expected_per_homomorphism": [
+        9
+      ],
+      "observed_per_homomorphism": [
+        9
+      ],
+      "passed": true,
+      "seconds": 0.002
+    },
+    {
+      "category": "su2_k1",
+      "group": "p4*SO(3)",
+      "lattice": "a",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k1",
+      "group": "p4*SO(3)",
+      "lattice": "b",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k1",
+      "group": "p4*SO(3)",
+      "lattice": "c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k1",
+      "group": "p4*SO(3)",
+      "lattice": "a+b",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k1",
+      "group": "p4*SO(3)",
+      "lattice": "a+c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k1",
+      "group": "p4*SO(3)",
+      "lattice": "b+c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k1",
+      "group": "p4*SO(3)",
+      "lattice": "a+b+c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k2",
+      "group": "p4*SO(3)",
+      "lattice": "0",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 16,
+      "observed": 16,
+      "expected_per_homomorphism": [
+        16
+      ],
+      "observed_per_homomorphism": [
+        16
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "su2_k2",
+      "group": "p4*SO(3)",
+      "lattice": "a",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k2",
+      "group": "p4*SO(3)",
+      "lattice": "b",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k2",
+      "group": "p4*SO(3)",
+      "lattice": "c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k2",
+      "group": "p4*SO(3)",
+      "lattice": "a+b",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k2",
+      "group": "p4*SO(3)",
+      "lattice": "a+c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k2",
+      "group": "p4*SO(3)",
+      "lattice": "b+c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k2",
+      "group": "p4*SO(3)",
+      "lattice": "a+b+c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k3",
+      "group": "p4*SO(3)",
+      "lattice": "0",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 9,
+      "observed": 9,
+      "expected_per_homomorphism": [
+        9
+      ],
+      "observed_per_homomorphism": [
+        9
+      ],
+      "passed": true,
+      "seconds": 0.005
+    },
+    {
+      "category": "su2_k3",
+      "group": "p4*SO(3)",
+      "lattice": "a",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k3",
+      "group": "p4*SO(3)",
+      "lattice": "b",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k3",
+      "group": "p4*SO(3)",
+      "lattice": "c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k3",
+      "group": "p4*SO(3)",
+      "lattice": "a+b",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k3",
+      "group": "p4*SO(3)",
+      "lattice": "a+c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k3",
+      "group": "p4*SO(3)",
+      "lattice": "b+c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k3",
+      "group": "p4*SO(3)",
+      "lattice": "a+b+c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k4",
+      "group": "p4*SO(3)",
+      "lattice": "0",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 16,
+      "observed": 16,
+      "expected_per_homomorphism": [
+        16
+      ],
+      "observed_per_homomorphism": [
+        16
+      ],
+      "passed": true,
+      "seconds": 0.009
+    },
+    {
+      "category": "su2_k4",
+      "group": "p4*SO(3)",
+      "lattice": "a",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k4",
+      "group": "p4*SO(3)",
+      "lattice": "b",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k4",
+      "group": "p4*SO(3)",
+      "lattice": "c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k4",
+      "group": "p4*SO(3)",
+      "lattice": "a+b",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k4",
+      "group": "p4*SO(3)",
+      "lattice": "a+c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k4",
+      "group": "p4*SO(3)",
+      "lattice": "b+c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k4",
+      "group": "p4*SO(3)",
+      "lattice": "a+b+c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0
+      ],
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k6",
+      "group": "p4*SO(3)",
+      "lattice": "0",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 64,
+      "observed": 64,
+      "expected_per_homomorphism": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "observed_per_homomorphism": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "passed": true,
+      "seconds": 0.834
+    },
+    {
+      "category": "su2_k6",
+      "group": "p4*SO(3)",
+      "lattice": "a",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k6",
+      "group": "p4*SO(3)",
+      "lattice": "b",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k6",
+      "group": "p4*SO(3)",
+      "lattice": "c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k6",
+      "group": "p4*SO(3)",
+      "lattice": "a+b",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k6",
+      "group": "p4*SO(3)",
+      "lattice": "a+c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k6",
+      "group": "p4*SO(3)",
+      "lattice": "b+c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k6",
+      "group": "p4*SO(3)",
+      "lattice": "a+b+c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k_minus3",
+      "group": "p4*SO(3)",
+      "lattice": "0",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 9,
+      "observed": 9,
+      "expected_per_homomorphism": [
+        9
+      ],
+      "observed_per_homomorphism": [
+        9
+      ],
+      "passed": true,
+      "seconds": 0.006
+    },
+    {
+      "category": "su2_k_minus3",
+      "group": "p4*SO(3)",
+      "lattice": "a",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k_minus3",
+      "group": "p4*SO(3)",
+      "lattice": "b",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k_minus3",
+      "group": "p4*SO(3)",
+      "lattice": "c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k_minus3",
+      "group": "p4*SO(3)",
+      "lattice": "a+b",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k_minus3",
+      "group": "p4*SO(3)",
+      "lattice": "a+c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k_minus3",
+      "group": "p4*SO(3)",
+      "lattice": "b+c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "su2_k_minus3",
+      "group": "p4*SO(3)",
+      "lattice": "a+b+c",
+      "source": "2608.14180 Sec. II B 4",
+      "expected": 1,
+      "observed": 1,
+      "expected_per_homomorphism": [
+        1
+      ],
+      "observed_per_homomorphism": [
+        1
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "z2_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "0",
+      "source": "2309.15118 Table X",
+      "expected": 3653,
+      "observed": 3653,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        1,
+        2,
+        1,
+        3632,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "passed": true,
+      "seconds": 19.279
+    },
+    {
+      "category": "z2_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "a",
+      "source": "2309.15118 Table X",
+      "expected": 64,
+      "observed": 64,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        64,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.001
+    },
+    {
+      "category": "z2_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "b",
+      "source": "2309.15118 Table X",
+      "expected": 64,
+      "observed": 64,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        64,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "z2_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "c",
+      "source": "2309.15118 Table X",
+      "expected": 64,
+      "observed": 64,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        64,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "z2_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "a+b",
+      "source": "2309.15118 Table X",
+      "expected": 16,
+      "observed": 16,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "z2_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Table X",
+      "expected": 16,
+      "observed": 16,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "z2_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "b+c",
+      "source": "2309.15118 Table X",
+      "expected": 16,
+      "observed": 16,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "z2_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "a+b+c",
+      "source": "2309.15118 Table X",
+      "expected": 8,
+      "observed": 8,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "z2_gauge",
+      "group": "p6m*O(3)",
+      "lattice": "0",
+      "source": "2309.15118 Table X",
+      "expected": 336,
+      "observed": 336,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        1,
+        1,
+        1,
+        327,
+        1,
+        2,
+        1,
+        2
+      ],
+      "passed": true,
+      "seconds": 0.564
+    },
+    {
+      "category": "z2_gauge",
+      "group": "p6m*O(3)",
+      "lattice": "a",
+      "source": "2309.15118 Table X",
+      "expected": 8,
+      "observed": 8,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "z2_gauge",
+      "group": "p6m*O(3)",
+      "lattice": "c",
+      "source": "2309.15118 Table X",
+      "expected": 8,
+      "observed": 8,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "z2_gauge",
+      "group": "p6m*O(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Table X",
+      "expected": 4,
+      "observed": 4,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "z3_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "0",
+      "source": "2309.15118 Table X",
+      "expected": 9,
+      "observed": 9,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "passed": true,
+      "seconds": 1.752
+    },
+    {
+      "category": "z3_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "a",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "z3_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "b",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "z3_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "c",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.002
+    },
+    {
+      "category": "z3_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "a+b",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "z3_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.002
+    },
+    {
+      "category": "z3_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "b+c",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.002
+    },
+    {
+      "category": "z3_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "a+b+c",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.002
+    },
+    {
+      "category": "z3_gauge",
+      "group": "p6m*O(3)",
+      "lattice": "0",
+      "source": "2309.15118 Table X",
+      "expected": 8,
+      "observed": 9,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        1,
+        5,
+        2,
+        1
+      ],
+      "passed": false,
+      "seconds": 0.251
+    },
+    {
+      "category": "z3_gauge",
+      "group": "p6m*O(3)",
+      "lattice": "a",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.002
+    },
+    {
+      "category": "z3_gauge",
+      "group": "p6m*O(3)",
+      "lattice": "c",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.002
+    },
+    {
+      "category": "z3_gauge",
+      "group": "p6m*O(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.002
+    },
+    {
+      "category": "z4_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "0",
+      "source": "2309.15118 Table X",
+      "expected": 886740,
+      "observed": 886740,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        43521,
+        179886,
+        85538,
+        84625,
+        80907,
+        165678,
+        165678,
+        80907
+      ],
+      "passed": true,
+      "seconds": 134.254
+    },
+    {
+      "category": "z4_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "a",
+      "source": "2309.15118 Table X",
+      "expected": 5008,
+      "observed": 5008,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        2544,
+        0,
+        0,
+        0,
+        2464,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "z4_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "b",
+      "source": "2309.15118 Table X",
+      "expected": 5008,
+      "observed": 5008,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        2544,
+        0,
+        0,
+        0,
+        0,
+        2464,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "z4_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "c",
+      "source": "2309.15118 Table X",
+      "expected": 8872,
+      "observed": 8872,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        6048,
+        0,
+        2824,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "z4_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "a+b",
+      "source": "2309.15118 Table X",
+      "expected": 636,
+      "observed": 636,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        636,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "z4_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Table X",
+      "expected": 656,
+      "observed": 656,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        656,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "z4_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "b+c",
+      "source": "2309.15118 Table X",
+      "expected": 656,
+      "observed": 656,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        656,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "z4_gauge",
+      "group": "p4m*O(3)",
+      "lattice": "a+b+c",
+      "source": "2309.15118 Table X",
+      "expected": 318,
+      "observed": 318,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        318,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "z4_gauge",
+      "group": "p6m*O(3)",
+      "lattice": "0",
+      "source": "2309.15118 Table X",
+      "expected": 16453,
+      "observed": 16453,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        2507,
+        4930,
+        4508,
+        4508
+      ],
+      "passed": true,
+      "seconds": 1.282
+    },
+    {
+      "category": "z4_gauge",
+      "group": "p6m*O(3)",
+      "lattice": "a",
+      "source": "2309.15118 Table X",
+      "expected": 70,
+      "observed": 70,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        70,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.002
+    },
+    {
+      "category": "z4_gauge",
+      "group": "p6m*O(3)",
+      "lattice": "c",
+      "source": "2309.15118 Table X",
+      "expected": 70,
+      "observed": 70,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        70,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.002
+    },
+    {
+      "category": "z4_gauge",
+      "group": "p6m*O(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Table X",
+      "expected": 82,
+      "observed": 82,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        82,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.002
+    },
+    {
+      "category": "double_semion",
+      "group": "p4m*O(3)",
+      "lattice": "0",
+      "source": "2309.15118 Table X",
+      "expected": 128,
+      "observed": 128,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        128
+      ],
+      "passed": true,
+      "seconds": 0.931
+    },
+    {
+      "category": "double_semion",
+      "group": "p4m*O(3)",
+      "lattice": "a",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "double_semion",
+      "group": "p4m*O(3)",
+      "lattice": "b",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "double_semion",
+      "group": "p4m*O(3)",
+      "lattice": "c",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "double_semion",
+      "group": "p4m*O(3)",
+      "lattice": "a+b",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "double_semion",
+      "group": "p4m*O(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "double_semion",
+      "group": "p4m*O(3)",
+      "lattice": "b+c",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "double_semion",
+      "group": "p4m*O(3)",
+      "lattice": "a+b+c",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "double_semion",
+      "group": "p6m*O(3)",
+      "lattice": "0",
+      "source": "2309.15118 Table X",
+      "expected": 32,
+      "observed": 32,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        32
+      ],
+      "passed": true,
+      "seconds": 0.054
+    },
+    {
+      "category": "double_semion",
+      "group": "p6m*O(3)",
+      "lattice": "a",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "double_semion",
+      "group": "p6m*O(3)",
+      "lattice": "c",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "double_semion",
+      "group": "p6m*O(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "u1_4_x_u1_minus4",
+      "group": "p4m*O(3)",
+      "lattice": "0",
+      "source": "2309.15118 Table X",
+      "expected": 1344,
+      "observed": 1344,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        128,
+        320,
+        128,
+        128,
+        128,
+        192,
+        192,
+        128
+      ],
+      "passed": true,
+      "seconds": 3.099
+    },
+    {
+      "category": "u1_4_x_u1_minus4",
+      "group": "p4m*O(3)",
+      "lattice": "a",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "u1_4_x_u1_minus4",
+      "group": "p4m*O(3)",
+      "lattice": "b",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "u1_4_x_u1_minus4",
+      "group": "p4m*O(3)",
+      "lattice": "c",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "u1_4_x_u1_minus4",
+      "group": "p4m*O(3)",
+      "lattice": "a+b",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "u1_4_x_u1_minus4",
+      "group": "p4m*O(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "u1_4_x_u1_minus4",
+      "group": "p4m*O(3)",
+      "lattice": "b+c",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "u1_4_x_u1_minus4",
+      "group": "p4m*O(3)",
+      "lattice": "a+b+c",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "u1_4_x_u1_minus4",
+      "group": "p6m*O(3)",
+      "lattice": "0",
+      "source": "2309.15118 Table X",
+      "expected": 144,
+      "observed": 144,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        32,
+        48,
+        32,
+        32
+      ],
+      "passed": true,
+      "seconds": 0.349
+    },
+    {
+      "category": "u1_4_x_u1_minus4",
+      "group": "p6m*O(3)",
+      "lattice": "a",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.003
+    },
+    {
+      "category": "u1_4_x_u1_minus4",
+      "group": "p6m*O(3)",
+      "lattice": "c",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.002
+    },
+    {
+      "category": "u1_4_x_u1_minus4",
+      "group": "p6m*O(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Table X",
+      "expected": 0,
+      "observed": 0,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.002
+    },
+    {
+      "category": "toric_code_z2_z2t",
+      "group": "p4m*O(3)",
+      "lattice": "0",
+      "source": "2309.15118 Table X (alternate gauge)",
+      "expected": 3653,
+      "observed": 3653,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        1,
+        2,
+        1,
+        3632,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "passed": true,
+      "seconds": 19.818
+    },
+    {
+      "category": "toric_code_z2_z2t",
+      "group": "p4m*O(3)",
+      "lattice": "a",
+      "source": "2309.15118 Table X (alternate gauge)",
+      "expected": 64,
+      "observed": 64,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        64,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.001
+    },
+    {
+      "category": "toric_code_z2_z2t",
+      "group": "p4m*O(3)",
+      "lattice": "b",
+      "source": "2309.15118 Table X (alternate gauge)",
+      "expected": 64,
+      "observed": 64,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        64,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "toric_code_z2_z2t",
+      "group": "p4m*O(3)",
+      "lattice": "c",
+      "source": "2309.15118 Table X (alternate gauge)",
+      "expected": 64,
+      "observed": 64,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        64,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "toric_code_z2_z2t",
+      "group": "p4m*O(3)",
+      "lattice": "a+b",
+      "source": "2309.15118 Table X (alternate gauge)",
+      "expected": 16,
+      "observed": 16,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "toric_code_z2_z2t",
+      "group": "p4m*O(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Table X (alternate gauge)",
+      "expected": 16,
+      "observed": 16,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "toric_code_z2_z2t",
+      "group": "p4m*O(3)",
+      "lattice": "b+c",
+      "source": "2309.15118 Table X (alternate gauge)",
+      "expected": 16,
+      "observed": 16,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "toric_code_z2_z2t",
+      "group": "p4m*O(3)",
+      "lattice": "a+b+c",
+      "source": "2309.15118 Table X (alternate gauge)",
+      "expected": 8,
+      "observed": 8,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "toric_code_z2_z2t",
+      "group": "p6m*O(3)",
+      "lattice": "0",
+      "source": "2309.15118 Table X (alternate gauge)",
+      "expected": 336,
+      "observed": 336,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        1,
+        1,
+        1,
+        327,
+        1,
+        2,
+        1,
+        2
+      ],
+      "passed": true,
+      "seconds": 0.53
+    },
+    {
+      "category": "toric_code_z2_z2t",
+      "group": "p6m*O(3)",
+      "lattice": "a",
+      "source": "2309.15118 Table X (alternate gauge)",
+      "expected": 8,
+      "observed": 8,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "toric_code_z2_z2t",
+      "group": "p6m*O(3)",
+      "lattice": "c",
+      "source": "2309.15118 Table X (alternate gauge)",
+      "expected": 8,
+      "observed": 8,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "category": "toric_code_z2_z2t",
+      "group": "p6m*O(3)",
+      "lattice": "a+c",
+      "source": "2309.15118 Table X (alternate gauge)",
+      "expected": 4,
+      "observed": 4,
+      "expected_per_homomorphism": null,
+      "observed_per_homomorphism": [
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "seconds": 0.0
+    }
+  ]
+}

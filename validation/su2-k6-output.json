@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "symmetry_group": "p4*SO(3)",
+  "iwps": [],
+  "lattice_homotopy_class": "0",
+  "umtc": {
+    "name": "SU(2)_6 UMTC with Z2 intrinsic symmetry",
+    "sha256": "f4cbb290878f49ba915ff4f428015c0dcb03dfe2a9f3b019f92a8a294e168606"
+  },
+  "conventions": {
+    "crystalline_antiunitary_parity": "mirror + time_reversal (mod 2)",
+    "counting": "modulo coboundaries and unitary intrinsic anyon relabeling; SPT stacking excluded",
+    "intrinsic_symmetry": "the full coherent intrinsic group supplied in the input JSON",
+    "spin_rotations": "continuous SO(3); identity image in the finite intrinsic group"
+  },
+  "number_of_homomorphisms": 4,
+  "number_of_inequivalent_homomorphisms": 4,
+  "total_realizations": 64,
+  "homomorphisms": [
+    {
+      "id": "h0",
+      "generator_images": {
+        "T1": "1",
+        "T2": "1",
+        "C4": "1"
+      },
+      "SO3_image": "1",
+      "equivalent_to": "h0",
+      "fractionalization_group": {
+        "cyclic_orders": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "order": 16
+      },
+      "number_of_fractionalization_classes": 16,
+      "number_of_realizations": 16
+    },
+    {
+      "id": "h1",
+      "generator_images": {
+        "T1": "1",
+        "T2": "1",
+        "C4": "X"
+      },
+      "SO3_image": "1",
+      "equivalent_to": "h1",
+      "fractionalization_group": {
+        "cyclic_orders": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "order": 16
+      },
+      "number_of_fractionalization_classes": 16,
+      "number_of_realizations": 16
+    },
+    {
+      "id": "h2",
+      "generator_images": {
+        "T1": "X",
+        "T2": "X",
+        "C4": "1"
+      },
+      "SO3_image": "1",
+      "equivalent_to": "h2",
+      "fractionalization_group": {
+        "cyclic_orders": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "order": 16
+      },
+      "number_of_fractionalization_classes": 16,
+      "number_of_realizations": 16
+    },
+    {
+      "id": "h3",
+      "generator_images": {
+        "T1": "X",
+        "T2": "X",
+        "C4": "X"
+      },
+      "SO3_image": "1",
+      "equivalent_to": "h3",
+      "fractionalization_group": {
+        "cyclic_orders": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "order": 16
+      },
+      "number_of_fractionalization_classes": 16,
+      "number_of_realizations": 16
+    }
+  ]
+}

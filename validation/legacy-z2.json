@@ -1,0 +1,887 @@
+{
+  "passed": true,
+  "patterns": 24,
+  "cases": 160,
+  "comparisons": [
+    {
+      "group": "p6m*O(3)",
+      "legacy_action": 1,
+      "permutation": [
+        0,
+        0,
+        0
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "c",
+        "a+c"
+      ],
+      "expected": [
+        327,
+        8,
+        8,
+        4
+      ],
+      "observed": [
+        327,
+        8,
+        8,
+        4
+      ],
+      "passed": true
+    },
+    {
+      "group": "p6m*O(3)",
+      "legacy_action": 2,
+      "permutation": [
+        0,
+        0,
+        1
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "c",
+        "a+c"
+      ],
+      "expected": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "observed": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "group": "p6m*O(3)",
+      "legacy_action": 3,
+      "permutation": [
+        0,
+        1,
+        1
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "c",
+        "a+c"
+      ],
+      "expected": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "observed": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "group": "p6m*O(3)",
+      "legacy_action": 4,
+      "permutation": [
+        1,
+        0,
+        1
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "c",
+        "a+c"
+      ],
+      "expected": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "observed": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "group": "p6m*O(3)",
+      "legacy_action": 5,
+      "permutation": [
+        1,
+        1,
+        1
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "c",
+        "a+c"
+      ],
+      "expected": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "observed": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "group": "p6m*O(3)",
+      "legacy_action": 6,
+      "permutation": [
+        0,
+        1,
+        0
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "c",
+        "a+c"
+      ],
+      "expected": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "observed": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "group": "p6m*O(3)",
+      "legacy_action": 7,
+      "permutation": [
+        1,
+        0,
+        0
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "c",
+        "a+c"
+      ],
+      "expected": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "observed": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "group": "p6m*O(3)",
+      "legacy_action": 8,
+      "permutation": [
+        1,
+        1,
+        0
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "c",
+        "a+c"
+      ],
+      "expected": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "observed": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "group": "p4m*O(3)",
+      "legacy_action": 1,
+      "permutation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "b",
+        "c",
+        "a+b",
+        "a+c",
+        "b+c",
+        "a+b+c"
+      ],
+      "expected": [
+        3632,
+        64,
+        64,
+        64,
+        16,
+        16,
+        16,
+        8
+      ],
+      "observed": [
+        3632,
+        64,
+        64,
+        64,
+        16,
+        16,
+        16,
+        8
+      ],
+      "passed": true
+    },
+    {
+      "group": "p4m*O(3)",
+      "legacy_action": 2,
+      "permutation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "b",
+        "c",
+        "a+b",
+        "a+c",
+        "b+c",
+        "a+b+c"
+      ],
+      "expected": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "group": "p4m*O(3)",
+      "legacy_action": 3,
+      "permutation": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "b",
+        "c",
+        "a+b",
+        "a+c",
+        "b+c",
+        "a+b+c"
+      ],
+      "expected": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "group": "p4m*O(3)",
+      "legacy_action": 4,
+      "permutation": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "b",
+        "c",
+        "a+b",
+        "a+c",
+        "b+c",
+        "a+b+c"
+      ],
+      "expected": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "group": "p4m*O(3)",
+      "legacy_action": 5,
+      "permutation": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "b",
+        "c",
+        "a+b",
+        "a+c",
+        "b+c",
+        "a+b+c"
+      ],
+      "expected": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "group": "p4m*O(3)",
+      "legacy_action": 6,
+      "permutation": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "b",
+        "c",
+        "a+b",
+        "a+c",
+        "b+c",
+        "a+b+c"
+      ],
+      "expected": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "group": "p4m*O(3)",
+      "legacy_action": 7,
+      "permutation": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "b",
+        "c",
+        "a+b",
+        "a+c",
+        "b+c",
+        "a+b+c"
+      ],
+      "expected": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "group": "p4m*O(3)",
+      "legacy_action": 8,
+      "permutation": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "b",
+        "c",
+        "a+b",
+        "a+c",
+        "b+c",
+        "a+b+c"
+      ],
+      "expected": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "group": "p4m*O(3)",
+      "legacy_action": 9,
+      "permutation": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "b",
+        "c",
+        "a+b",
+        "a+c",
+        "b+c",
+        "a+b+c"
+      ],
+      "expected": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "group": "p4m*O(3)",
+      "legacy_action": 10,
+      "permutation": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "b",
+        "c",
+        "a+b",
+        "a+c",
+        "b+c",
+        "a+b+c"
+      ],
+      "expected": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "group": "p4m*O(3)",
+      "legacy_action": 11,
+      "permutation": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "b",
+        "c",
+        "a+b",
+        "a+c",
+        "b+c",
+        "a+b+c"
+      ],
+      "expected": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "group": "p4m*O(3)",
+      "legacy_action": 12,
+      "permutation": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "b",
+        "c",
+        "a+b",
+        "a+c",
+        "b+c",
+        "a+b+c"
+      ],
+      "expected": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "group": "p4m*O(3)",
+      "legacy_action": 13,
+      "permutation": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "b",
+        "c",
+        "a+b",
+        "a+c",
+        "b+c",
+        "a+b+c"
+      ],
+      "expected": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "group": "p4m*O(3)",
+      "legacy_action": 14,
+      "permutation": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "b",
+        "c",
+        "a+b",
+        "a+c",
+        "b+c",
+        "a+b+c"
+      ],
+      "expected": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "group": "p4m*O(3)",
+      "legacy_action": 15,
+      "permutation": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "b",
+        "c",
+        "a+b",
+        "a+c",
+        "b+c",
+        "a+b+c"
+      ],
+      "expected": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "group": "p4m*O(3)",
+      "legacy_action": 16,
+      "permutation": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "lattice_order": [
+        "0",
+        "a",
+        "b",
+        "c",
+        "a+b",
+        "a+c",
+        "b+c",
+        "a+b+c"
+      ],
+      "expected": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "all_restricted_counts_match": true,
+  "cases": [
+    {
+      "category": "u1_6.json",
+      "group": "p6*SO(3)",
+      "lattice": "0",
+      "full_count": 35,
+      "without_extra_order_three_sector": 30,
+      "printed_count": 30
+    },
+    {
+      "category": "u1_6.json",
+      "group": "p6*SO(3)",
+      "lattice": "a",
+      "full_count": 7,
+      "without_extra_order_three_sector": 6,
+      "printed_count": 6
+    },
+    {
+      "category": "u1_6.json",
+      "group": "p6*SO(3)",
+      "lattice": "c",
+      "full_count": 7,
+      "without_extra_order_three_sector": 6,
+      "printed_count": 6
+    },
+    {
+      "category": "u1_6.json",
+      "group": "p6*SO(3)",
+      "lattice": "a+c",
+      "full_count": 7,
+      "without_extra_order_three_sector": 6,
+      "printed_count": 6
+    },
+    {
+      "category": "z3_gauge.json",
+      "group": "p6m*O(3)",
+      "lattice": "0",
+      "full_count": 9,
+      "without_extra_order_three_sector": 8,
+      "printed_count": 8
+    },
+    {
+      "category": "z3_gauge.json",
+      "group": "p6m*O(3)",
+      "lattice": "a",
+      "full_count": 0,
+      "without_extra_order_three_sector": 0,
+      "printed_count": 0
+    },
+    {
+      "category": "z3_gauge.json",
+      "group": "p6m*O(3)",
+      "lattice": "c",
+      "full_count": 0,
+      "without_extra_order_three_sector": 0,
+      "printed_count": 0
+    },
+    {
+      "category": "z3_gauge.json",
+      "group": "p6m*O(3)",
+      "lattice": "a+c",
+      "full_count": 0,
+      "without_extra_order_three_sector": 0,
+      "printed_count": 0
+    }
+  ]
+}

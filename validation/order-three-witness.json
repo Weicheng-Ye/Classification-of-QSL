@@ -1,0 +1,62 @@
+{
+  "alpha_matrix": [
+    [
+      -1,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      -1
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "alpha_order": 6,
+  "coefficient_group": "Z3 with C6 acting by -1",
+  "finite_quotient_order": 54,
+  "cocycle_identities_checked": 157464,
+  "all_identities_passed": true,
+  "conjugation_tails": [
+    0,
+    1
+  ],
+  "coboundary_tail_shifts": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "nontrivial_class": true,
+  "mirror_matrix": [
+    [
+      1,
+      1,
+      -1
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "mirror_relations_passed": true,
+  "infinite_group_argument": "Integer alpha^6=I; tail difference is invariant modulo 3 under every generator-lift change."
+}

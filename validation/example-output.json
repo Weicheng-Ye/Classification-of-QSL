@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "symmetry_group": "p4*SO(3)",
+  "iwps": [
+    "1 a",
+    "1 b"
+  ],
+  "lattice_homotopy_class": "a+b",
+  "umtc": {
+    "name": "U(1)_2",
+    "sha256": "ca817ea60d9f3c2b0272351014ca24370e5c17f20dc9764f6f0ac60382162a39"
+  },
+  "conventions": {
+    "crystalline_antiunitary_parity": "mirror + time_reversal (mod 2)",
+    "counting": "modulo coboundaries and unitary intrinsic anyon relabeling; SPT stacking excluded",
+    "intrinsic_symmetry": "the full coherent intrinsic group supplied in the input JSON",
+    "spin_rotations": "continuous SO(3); identity image in the finite intrinsic group"
+  },
+  "number_of_homomorphisms": 1,
+  "number_of_inequivalent_homomorphisms": 1,
+  "total_realizations": 1,
+  "homomorphisms": [
+    {
+      "id": "h0",
+      "generator_images": {
+        "T1": "1",
+        "T2": "1",
+        "C4": "1"
+      },
+      "SO3_image": "1",
+      "equivalent_to": "h0",
+      "fractionalization_group": {
+        "cyclic_orders": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "order": 16
+      },
+      "number_of_fractionalization_classes": 1,
+      "number_of_realizations": 1,
+      "realizations": [
+        {
+          "id": "h0:r14",
+          "eta_symbol": {
+            "type": "qsl_eta_v1",
+            "symmetry_group": "p4*SO(3)",
+            "generator_images": {
+              "T1": "1",
+              "T2": "1",
+              "C4": "1"
+            },
+            "relation_values": [
+              {
+                "relation": "T2:T1",
+                "anyon": [
+                  0
+                ]
+              },
+              {
+                "relation": "C4:T1",
+                "anyon": [
+                  0
+                ]
+              },
+              {
+                "relation": "C4:T2",
+                "anyon": [
+                  1
+                ]
+              },
+              {
+                "relation": "C4^4",
+                "anyon": [
+                  1
+                ]
+              },
+              {
+                "relation": "spin_lift_squared",
+                "anyon": [
+                  1
+                ]
+              }
+            ],
+            "formula": "eta_ref(a,phi(g),phi(h))*M(a,t(g,h)); t from lifted relations plus spin_anyon*w2"
+          }
+        }
+      ]
+    }
+  ]
+}

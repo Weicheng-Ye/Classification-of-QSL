@@ -1,0 +1,14 @@
+{
+  "unit_tests_passed": 18,
+  "unit_tests_failed": 0,
+  "runs": [
+    {
+      "command": ".venv/bin/pytest -q",
+      "passed": 18,
+      "seconds": 7.81
+    }
+  ],
+  "cli_json_round_trip": "passed",
+  "wheel": "qsl_classification-0.1.0-py3-none-any.whl",
+  "example_directory": "examples"
+}
