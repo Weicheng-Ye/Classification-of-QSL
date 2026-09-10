@@ -68,7 +68,7 @@ def test_json_and_unbounded_eta(examples):
 
 def test_invalid_inputs(examples):
     p=examples/'u1_2.json'
-    for group,iwps in [('p3*SO(3)',[]),('p6*SO(3)',['1 b']),('p4*SO(3)',['3 c'])]:
+    for group,iwps in [('p7*SO(3)',[]),('p6*SO(3)',['1 b']),('p4*SO(3)',['3 c'])]:
         with pytest.raises(ValueError):classify(group,iwps,p)
     assert classify('p6*SO(3)',['2 b'],p)['total_realizations']==5
     assert classify('p4*SO(3)',['1 a','1 a'],p)['total_realizations']==9

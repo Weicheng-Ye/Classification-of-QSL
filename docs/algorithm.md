@@ -6,8 +6,8 @@ must describe an action of the whole supplied G₀. The implementation does
 not infer G₀ from fusion and spins. Missing intrinsic automorphisms would
 make the classification incomplete, even when all supplied data are coherent.
 
-The four microscopic groups have wallpaper factor P and connected SO(3).
-For the mirror groups there is also a commuting time reversal T. The
+All 17 microscopic plane groups have wallpaper factor P and connected SO(3).
+Each independently permits an optional commuting time reversal T. The
 crystalline-equivalence grading is s(g)=m(g)+t(g) modulo two. Homomorphisms
 φ:G→G₀ are enumerated by their generator images, checking every conjugation
 and power relation. SO(3) has identity image by continuity.
@@ -19,19 +19,23 @@ module, including mixed cyclic orders and non-diagonal actions.
 
 ## Infinite-group cohomology
 
-Write wallpaper elements as XˣYʸRᶜMᵐTᵗ, omitting M and T for p4/p6. Here
-x,y are arbitrary integers; the orders of R,M,T are n,2,2. For every
+Write wallpaper elements as XˣYʸRᶜMᵐTᵗ, omitting absent factors and using L
+for a glide generator. Here x,y are arbitrary integers; R,M,T have relative
+orders n,2,2. A glide has relative order two over the translation subgroup.
+For every
 conjugation relation and finite power relation introduce an A-valued tail:
 
 ```
 g_i g_j g_i^-1 = a_ij * word_ij(g_0,...,g_(i-1))
-g_i^n_i = p_i
+g_i^n_i = p_i * power_word_i(g_0,...,g_(i-1))
 ```
 
-Starting from A, add X and Y as infinite cyclic extensions and R,M,T as
+Starting from A, add X and Y as infinite cyclic extensions and R,M/L,T as
 finite cyclic extensions. At each stage the new conjugation automorphism α
 must preserve all previous defining relations. For finite order n, also
-require αⁿ=Inn(p) on the lower generators and α(p)=p. Its action on A
+require αⁿ=Inn(P) on the lower generators and α(P)=P, where P includes
+both the anyon tail and the lower-generator power word. This keeps L²=Y
+in pg/pgg and L²=XY in p4g. Its action on A
 already satisfies the required relations because φ is a homomorphism.
 These conditions are necessary and sufficient for consistency of the
 iterated extension presentation. They are linear congruences in the tails.
@@ -73,6 +77,28 @@ subgroups follow Eqs. (214)–(217). The LSM target signs follow Tables I, II,
 XVIII, and XIX. Two apparent subscript typos in Eq. (216) are interpreted as
 I₂: its two-argument entries I₁₂ and I₁₃ involve two antiunitary generators.
 
+For the other settings, `wallpaper_indicators.py` assembles the independent
+bases in [the all-group catalogue](anomaly-indicators-all-wallpaper-groups.md).
+Old indicators are reused, and the S² factors reduce to the invariant
+order-two spin-flux anyon. Wyckoff orbits supply lattice-class coordinates
+using [the Bilbao catalogue](wallpaper-groups.md).
+
+The remaining RP² × T² and RP² × Kl evaluations split into a pulled-back
+reference anomaly and a relative obstruction. The latter retains all six F,
+one R, two U, and reference eta factors of Eq. (50) of
+[arXiv:1906.10691](https://arxiv.org/abs/1906.10691), evaluated on the 12-term
+and 18-term twisted bar cycles. Reference holonomies may first be reduced
+by odd-degree covers. Old formulas apply when their **reference images**
+meet the order conditions; the full infinite-group fractionalization is
+never reduced by this shortcut.
+
+If those reductions do not apply, `product_state_sum.py` contracts a
+24-simplex product Delta-complex. Pointed categories use an exact quotient
+of twisted two-cocycles by one-cochain gauge changes. The general fallback
+retains all anyon and fusion-multiplicity sums with admissibility pruning.
+Its isometric-basis normalization and quantum trace are specified in
+[the partition-function derivation](rp2-product-partition-functions.md).
+
 The expensive F/R/U contractions are independent of t and are cached.
 The remaining η dependence is a finite Fourier polynomial in H² coordinates.
 The relative obstruction is quadratic in fractionalization. Its polarization
@@ -83,7 +109,12 @@ direct Fourier evaluations check this identity. An indicator outside ±1 or
 a failed polarization check raises `IndicatorError`; it is never silently
 rounded to an allowed class.
 
-Classes are enumerated in bounded batches. The unitary centralizer of φ acts
+Small sectors are enumerated in bounded batches. Large cyclic 2-power
+sectors use exact Boolean quadratic solving with linear elimination.
+For a Z4 or higher factor, binomial(n,2) is the second binary digit of n;
+it is retained as an independent linear term in the expanded system.
+The solver reconstructs every solution in the original H² coordinates.
+The unitary centralizer of φ acts
 on their H² coordinates; one representative per orbit is retained. Under the
 coherent reference G₀ action, intrinsic conjugation carries the pulled-back
 reference to an equivalent reference, so this action is linear on t.

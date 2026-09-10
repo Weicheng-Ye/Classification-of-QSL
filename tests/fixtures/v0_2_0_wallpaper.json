@@ -1,0 +1,3694 @@
+{
+  "double_semion": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 1,
+        "realizations": 10
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 304
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 3
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 32
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 20
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 20
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 24
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 88
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 16
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 12
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 10
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 28
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 8
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 32
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 32
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 8
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 512
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 32
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 8
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 64
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 16
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 128
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 16
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 8
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 8
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 8
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 32
+      }
+    ]
+  },
+  "fibonacci": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 1,
+        "realizations": 1
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 1
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 1
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 1
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 1
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ]
+  },
+  "ising_nu1": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 32
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 16
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 8
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ]
+  },
+  "ising_nu11": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 32
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 16
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 8
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ]
+  },
+  "ising_nu13": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 32
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 16
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 8
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ]
+  },
+  "ising_nu15": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 32
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 16
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 8
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ]
+  },
+  "ising_nu3": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 32
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 16
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 8
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ]
+  },
+  "ising_nu5": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 32
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 16
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 8
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ]
+  },
+  "ising_nu7": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 32
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 16
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 8
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ]
+  },
+  "ising_nu9": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 32
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 16
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 8
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ]
+  },
+  "su2_k1": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 1,
+        "realizations": 3
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 17
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 9
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 3
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 5
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ]
+  },
+  "su2_k2": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 32
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 16
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 8
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ]
+  },
+  "su2_k3": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 1,
+        "realizations": 3
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 17
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 9
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 3
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 5
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ]
+  },
+  "su2_k4": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 32
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 16
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 8
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ]
+  },
+  "su2_k6": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 4,
+        "realizations": 16
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 256
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 64
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 4
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 2,
+        "realizations": 16
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ]
+  },
+  "su2_k_minus3": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 1,
+        "realizations": 3
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 17
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 9
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 3
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 5
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ]
+  },
+  "toric_code": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 4,
+        "realizations": 16
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 256
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 116
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 11
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 22
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 2170
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 153
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 28
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 212
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 92
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 402
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 38
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 7
+      },
+      {
+        "homomorphisms": 2,
+        "realizations": 13
+      },
+      {
+        "homomorphisms": 2,
+        "realizations": 13
+      },
+      {
+        "homomorphisms": 2,
+        "realizations": 22
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 54
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 8,
+        "realizations": 94
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 1862
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 1376
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 88
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 162
+      },
+      {
+        "homomorphisms": 32,
+        "realizations": 28726
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 1549
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 178
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 2202
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 353
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 3653
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 287
+      },
+      {
+        "homomorphisms": 2,
+        "realizations": 10
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 45
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 45
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 47
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 336
+      }
+    ]
+  },
+  "u1_10": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 4,
+        "realizations": 18
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 170
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 54
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 9
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 2,
+        "realizations": 20
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ]
+  },
+  "u1_2": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 1,
+        "realizations": 3
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 17
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 9
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 3
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 5
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ]
+  },
+  "u1_4": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 4,
+        "realizations": 14
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 178
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 76
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 5
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 2,
+        "realizations": 16
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ]
+  },
+  "u1_4_x_u1_minus4": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 16,
+        "realizations": 212
+      },
+      {
+        "homomorphisms": 64,
+        "realizations": 32584
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 18
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 14
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 18
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 272
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 192
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 192
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 220
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 5928
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 104
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 88
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 26
+      },
+      {
+        "homomorphisms": 2,
+        "realizations": 6
+      },
+      {
+        "homomorphisms": 2,
+        "realizations": 6
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 262
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 20
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 8,
+        "realizations": 18
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 272
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 272
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 18
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 40
+      },
+      {
+        "homomorphisms": 32,
+        "realizations": 8448
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 272
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 40
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 576
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 104
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 1344
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 104
+      },
+      {
+        "homomorphisms": 2,
+        "realizations": 6
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 20
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 20
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 20
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 144
+      }
+    ]
+  },
+  "u1_6": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 4,
+        "realizations": 15
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 153
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 45
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 42
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 2,
+        "realizations": 35
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ]
+  },
+  "u1_8": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 4,
+        "realizations": 17
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 195
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 94
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 8
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 2,
+        "realizations": 21
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      },
+      {
+        "homomorphisms": 0,
+        "realizations": 0
+      }
+    ]
+  },
+  "z2_gauge": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 4,
+        "realizations": 16
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 256
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 116
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 11
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 22
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 2170
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 153
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 28
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 212
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 92
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 402
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 38
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 7
+      },
+      {
+        "homomorphisms": 2,
+        "realizations": 13
+      },
+      {
+        "homomorphisms": 2,
+        "realizations": 13
+      },
+      {
+        "homomorphisms": 2,
+        "realizations": 22
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 54
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 8,
+        "realizations": 94
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 1862
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 1376
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 88
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 162
+      },
+      {
+        "homomorphisms": 32,
+        "realizations": 28726
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 1549
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 178
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 2202
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 353
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 3653
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 287
+      },
+      {
+        "homomorphisms": 2,
+        "realizations": 10
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 45
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 45
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 47
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 336
+      }
+    ]
+  },
+  "z3_gauge": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 16,
+        "realizations": 25
+      },
+      {
+        "homomorphisms": 64,
+        "realizations": 81
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 5
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 5
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 5
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 9
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 9
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 9
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 9
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 25
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 5
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 5
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 196
+      },
+      {
+        "homomorphisms": 2,
+        "realizations": 14
+      },
+      {
+        "homomorphisms": 2,
+        "realizations": 14
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 49
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 7
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 8,
+        "realizations": 5
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 9
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 9
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 5
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 5
+      },
+      {
+        "homomorphisms": 32,
+        "realizations": 17
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 9
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 5
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 9
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 5
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 9
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 5
+      },
+      {
+        "homomorphisms": 2,
+        "realizations": 14
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 15
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 7
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 7
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 9
+      }
+    ]
+  },
+  "z4_gauge": {
+    "without_time_reversal": [
+      {
+        "homomorphisms": 16,
+        "realizations": 87
+      },
+      {
+        "homomorphisms": 64,
+        "realizations": 3340
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 1188
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 32
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 132
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 90290
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 1624
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 204
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 4008
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 1244
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 13394
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 604
+      },
+      {
+        "homomorphisms": 1,
+        "realizations": 18
+      },
+      {
+        "homomorphisms": 2,
+        "realizations": 50
+      },
+      {
+        "homomorphisms": 2,
+        "realizations": 50
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 94
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 538
+      }
+    ],
+    "with_time_reversal": [
+      {
+        "homomorphisms": 8,
+        "realizations": 900
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 78766
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 62700
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 900
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 3184
+      },
+      {
+        "homomorphisms": 32,
+        "realizations": 20320343
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 68886
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 3216
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 243245
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 13720
+      },
+      {
+        "homomorphisms": 16,
+        "realizations": 886740
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 12508
+      },
+      {
+        "homomorphisms": 2,
+        "realizations": 42
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 510
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 510
+      },
+      {
+        "homomorphisms": 4,
+        "realizations": 514
+      },
+      {
+        "homomorphisms": 8,
+        "realizations": 16453
+      }
+    ]
+  }
+}

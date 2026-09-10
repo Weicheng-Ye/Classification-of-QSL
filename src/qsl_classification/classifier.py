@@ -9,6 +9,7 @@ from .groups import SpaceGroup, Intrinsic
 from .algebra import AnyonModule
 from .extensions import ExtensionCollector
 from .indicators import TopologicalWeights, AnomalySystem
+from .wallpaper_indicators import WallpaperAnomalySystem
 from .symbols import EtaSymbol
 
 
@@ -16,7 +17,8 @@ class Analysis:
     def __init__(self, engine, space, images):
         self.collector = ExtensionCollector(space,engine.module,engine.intrinsic,images)
         self.quotient = self.collector.cohomology()
-        self.anomalies = AnomalySystem(self.collector,self.quotient,engine.weights)
+        anomaly_class = AnomalySystem if space.legacy_indicators else WallpaperAnomalySystem
+        self.anomalies = anomaly_class(self.collector,self.quotient,engine.weights)
         self.quadratic = self.anomalies.quadratic()
         self.orders = np.array(self.quotient.orders,dtype=np.int64)
         strides, stride = [], 1
@@ -36,9 +38,9 @@ class Analysis:
                 continue
             if not any(np.array_equal(matrix,v) for v in self.relabelings):
                 self.relabelings.append(matrix)
-        letters = 'abc' if space.n == 4 else 'ac'
+        letters = space.lattice_keys
         self.parities = [dict(zip(letters,bits)) for bits in product((0,1),repeat=len(letters))]
-        self.parities = [dict(a=p.get('a',0),b=p.get('b',0),c=p.get('c',0)) for p in self.parities]
+        self.lattice_keys = letters
         self.sectors = {}
 
     def coordinates(self, ids):
@@ -47,6 +49,8 @@ class Analysis:
     def enumerate(self):
         if self.sectors:
             return
+        if self.quotient.size > 2**20 and all(not (int(m) & (int(m)-1)) for m in self.orders):
+            return self.enumerate_binary()
         targets = [np.array(self.anomalies.target(p),dtype=np.uint8) for p in self.parities]
         results = [[] for _ in targets]
         raw_counts = [0]*len(targets)
@@ -66,7 +70,27 @@ class Analysis:
                 raw_counts[i] += int(matching.sum())
                 results[i].append(ids[matching & canonical])
         for p,parts,raw in zip(self.parities,results,raw_counts):
-            self.sectors[tuple(p[x] for x in 'abc')] = (np.concatenate(parts),raw)
+            self.sectors[tuple(p[x] for x in self.lattice_keys)] = (np.concatenate(parts),raw)
+
+    def enumerate_binary(self):
+        from .quadratic_solver import binary_solutions, binary_encoding
+        model = binary_encoding(self.quadratic,self.orders)
+        for parity in self.parities:
+            target = self.anomalies.target(parity)
+            ids = np.fromiter(binary_solutions(model,target),dtype=np.int64)
+            ids.sort()
+            raw = len(ids)
+            kept=[]
+            for start in range(0,len(ids),65536):
+                batch=ids[start:start+65536]
+                coords=self.coordinates(batch)
+                canonical=np.ones(len(batch),dtype=bool)
+                for transform in self.relabelings:
+                    moved=(coords @ transform.T) % self.orders
+                    canonical &= batch <= moved @ self.strides
+                kept.append(batch[canonical])
+            self.sectors[tuple(parity[x] for x in self.lattice_keys)] = (
+                np.concatenate(kept) if kept else np.array([],dtype=np.int64),raw)
 
 
 class Engine:
@@ -91,18 +115,39 @@ def _engine(path, digest):
     return Engine(path)
 
 
-def classify(symmetry_group: str, iwps: list[str], umtc_json_file: str | Path,
-             verbose: bool = False) -> dict:
+def classify(symmetry_group: str | int, iwps: list[str], umtc_json_file: str | Path,
+             *positional, time_reversal: bool | None = None, verbose: bool | None = None) -> dict:
     """Return a JSON-compatible dictionary of anomaly-matched SET realizations.
 
-    IWPs list occupied half-odd-integer-spin orbits. An empty list describes
-    trivial lattice homotopy. O(3) means SO(3) × Z₂ᵀ. All literal graded
+    WPs use Bilbao's conventional-cell letters and multiplicities. Each entry
+    occupies one half-odd-integer-spin orbit. IT numbers 1–17 default to an
+    independent T; use time_reversal=False to omit it. A group suffix SO(3)
+    or O(3) explicitly selects SO(3) or SO(3) × Z₂ᵀ. All literal graded
     homomorphisms are returned; the total counts one representative of each
     unitary intrinsic-conjugacy orbit. SPT stacking is not counted.
     """
+    if len(positional) > 2:
+        raise TypeError('Expected time_reversal and verbose after the three required arguments')
+    if positional:
+        legacy = (isinstance(symmetry_group,str) and 'O(3)' in symmetry_group
+                  and SpaceGroup.parse(symmetry_group).legacy_indicators)
+        if len(positional) == 1 and legacy:
+            if verbose is not None:
+                raise TypeError('verbose was provided twice')
+            verbose = positional[0]
+        else:
+            if time_reversal is not None:
+                raise TypeError('time_reversal was provided twice')
+            time_reversal = positional[0]
+            if len(positional) == 2:
+                if verbose is not None:
+                    raise TypeError('verbose was provided twice')
+                verbose = positional[1]
+    if verbose is None:
+        verbose = False
     if type(verbose) is not bool:
         raise TypeError("verbose must be a boolean")
-    space = SpaceGroup.parse(symmetry_group)
+    space = SpaceGroup.parse(symmetry_group,time_reversal)
     parity = space.lattice(iwps)
     path = Path(umtc_json_file).expanduser().resolve()
     digest = hashlib.sha256(path.read_bytes()).hexdigest()
@@ -117,7 +162,7 @@ def classify(symmetry_group: str, iwps: list[str], umtc_json_file: str | Path,
         representative = min(i for i,k in conjugates)
         rep_images = homs[representative]
         analysis = engine.analysis(space,rep_images)
-        ids, raw = analysis.sectors[tuple(parity[x] for x in 'abc')]
+        ids, raw = analysis.sectors[tuple(parity[x] for x in space.lattice_keys)]
         if index == representative:
             total += len(ids)
         record = {"id": f"h{index}", "generator_images": dict(zip(space.names,images)),
@@ -141,8 +186,8 @@ def classify(symmetry_group: str, iwps: list[str], umtc_json_file: str | Path,
                 record["realizations"].append({"id": f"h{index}:r{int(class_id)}",
                                                "eta_symbol": EtaSymbol(collector,parameters).to_json()})
         records.append(record)
-    return {"schema_version": 1, "symmetry_group": space.name, "iwps": list(iwps),
-            "lattice_homotopy_class": "+".join(k for k in 'abc' if parity[k]) or "0",
+    result = {"schema_version": 1, "symmetry_group": space.name, "iwps": list(iwps),
+            "lattice_homotopy_class": "+".join(k for k in space.lattice_keys if parity[k]) or "0",
             "umtc": {"name": engine.category.name, "sha256": digest},
             "conventions": {"crystalline_antiunitary_parity": "mirror + time_reversal (mod 2)",
                             "counting": "modulo coboundaries and unitary intrinsic anyon relabeling; SPT stacking excluded",
@@ -151,3 +196,8 @@ def classify(symmetry_group: str, iwps: list[str], umtc_json_file: str | Path,
             "number_of_homomorphisms": len(homs),
             "number_of_inequivalent_homomorphisms": len({r['equivalent_to'] for r in records}),
             "total_realizations": total, "homomorphisms": records}
+    if not space.legacy_indicators:
+        result.update(it_number=space.number,time_reversal=space.time_reversal,
+                      wyckoff_convention="Bilbao standard conventional-cell setting",
+                      lattice_coordinates=parity)
+    return result

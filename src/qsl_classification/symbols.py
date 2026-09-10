@@ -38,7 +38,7 @@ def parse_element(space, g):
         return e, quaternion(g.get("spin", [1, 0, 0, 0]))
     if len(g) != len(space.names):
         raise ValueError(f"Use {len(space.names)} wallpaper coordinates or an element dictionary")
-    return space.element(*g), (1., 0., 0., 0.)
+    return space.coordinates(g), (1., 0., 0., 0.)
 
 
 class EtaSymbol:

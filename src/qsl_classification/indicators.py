@@ -164,7 +164,7 @@ class AnomalySystem:
         return specs
 
     def target(self, parity):
-        a,b,c = (parity[x] for x in 'abc')
+        a,b,c = (parity.get(x,0) for x in 'abc')
         if not self.e.space.mirror:
             return [a,b,c] if self.e.space.n == 4 else [a,c]
         result = [0]*len(self.specs)

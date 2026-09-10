@@ -1,8 +1,61 @@
 # Validation
 
+## Version 0.2.0
+
+The release was checked against a frozen v0.1.0 checkout at commit
+`0753feb766c767b03f98098401efd3a6ebb43e3f`. All **276 complete JSON results**
+are identical, including homomorphism images, cohomology orders, counts,
+and the five known paper discrepancies. Four additional verbose result
+hashes verify preservation of the original eta descriptors.
+The baseline is committed in
+[tests/fixtures/v0_1_0.json](../tests/fixtures/v0_1_0.json).
+
+All **26 example UMTCs × 34 symmetry settings = 884 classifications**
+were completed with the empty WP list. Their homomorphism and realization
+counts are recorded in
+[the v0.2.0 regression fixture](../tests/fixtures/v0_2_0_wallpaper.json).
+These new-group counts are implementation regressions; the papers do not
+provide independent printed counts for all of them.
+
+The tests additionally check:
+
+- all 34 exact presentations, antiunitary gradings, and mod-two cohomology
+  dimensions against the independent wallpaper cohomology ranks;
+- every Bilbao WP multiplicity, the b/c ordering in p2, centered-cell
+  conventions, and general-position lattice charges;
+- twisted cocycle identities and eta reconstruction for glides with
+  translation exponents far larger than any finite quotient;
+- the relative F/R/U/eta obstruction against the old absolute indicators;
+- both 24-simplex product sums with negative anomaly signs, complex
+  symmetry gauges, permutations, and nontrivial F symbols;
+- higher-order reference holonomies, including a noncommuting Klein-bottle
+  background whose glide image has order four;
+- the full non-Abelian Fibonacci four-sphere partition function;
+- Boolean and cyclic 2-power constraint solving against exhaustive enumeration.
+
+The general non-Abelian product fallback retains every fusion index, but a
+full non-Abelian product contraction has not been benchmarked. Its runtime
+can be exponential. Physical regression inputs have no fusion multiplicity
+greater than one; separate synthetic tensor tests check multiplicity indices.
+
+Reproduce the release checks with:
+
+```sh
+python -m pytest -q
+python scripts/validate_wallpaper_groups.py
+python scripts/validate_papers.py
+```
+
+The paper runner still exits with status 1 for the five known discrepancies;
+the frozen v0.1.0 regression requires those results to remain unchanged.
+A wheel was also built, installed outside the source checkout, and exercised
+with an IT-number classification and a reconstructed glide eta function.
+
+## Published examples and earlier checks
+
 The public `classify` function was run against **276 category/group/lattice
 cases** from the two papers, covering all 25 paper-derived input JSON files.
-The remaining supplied file, Fibonacci, was checked for all four supported
+The remaining supplied file, Fibonacci, was checked for all four original
 groups. The report is [validation/papers.json](../validation/papers.json).
 
 **271 of 276 published comparisons match.** The five differences are confined
@@ -47,7 +100,7 @@ All 24 permutation patterns in the supplied original Z₂ implementation also
 agree, covering 160 pattern/lattice comparisons; see
 [validation/legacy-z2.json](../validation/legacy-z2.json).
 
-The 18 unit tests cover group associativity, exact mixed-modulus quotients,
+The original 18 unit tests cover group associativity, exact mixed-modulus quotients,
 twisted cocycle identities with signed translations, translations as large
 as 10⁵⁰, antiunitary grading, anyon-relabeling counts, JSON reconstruction,
 SO(3) quaternion lifts, invalid inputs, catalog coverage, and a category with

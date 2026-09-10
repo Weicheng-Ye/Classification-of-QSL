@@ -33,6 +33,8 @@ class ExtensionCollector:
             self.spin[:, -self.d:] = np.eye(self.d, dtype=np.int64) if self.d else self.zero
         self.rho = [module.actions[g] for g in images]
         self.rho_inverse = [module.actions[intrinsic.power(g, -1)] for g in images]
+        self.image = lru_cache(maxsize=None)(self.image)
+        self.power_element = lru_cache(maxsize=None)(self.power_element)
 
     def reduce(self, a):
         return a % self.mod
@@ -61,8 +63,13 @@ class ExtensionCollector:
         n = self.space.orders[i]
         if n:
             carry, power = divmod(power, n)
-            out = self.reduce(out + self.action(word, carry*self.tails[i, i]))
+            if carry:
+                out, word = self.mul(i, (out, word), self.power(i, self.power_element(i), carry))
         return out, word+(power,)
+
+    def power_element(self, i):
+        a, word = self.word_element(i, self.space.power_word(i))
+        return self.reduce(a+self.tails[i, i]), word
 
     def primitive_power(self, k, j, n):
         e = [0]*k
@@ -70,7 +77,9 @@ class ExtensionCollector:
         order = self.space.orders[j]
         if order:
             q, n = divmod(n, order)
-            out = self.reduce(q*self.tails[j, j])
+            if q:
+                out, word = self.power(j, self.power_element(j), q)
+                e[:j] = word
         e[j] = n
         return out, tuple(e)
 
@@ -94,7 +103,6 @@ class ExtensionCollector:
                 element = self.mul(k, element, element)
         return result
 
-    @lru_cache(maxsize=None)
     def image(self, i, j, inverse=False):
         if inverse:
             # Only the infinite translation Y needs inverse conjugation.
@@ -178,15 +186,17 @@ class ExtensionCollector:
                     equal(lhs, rhs)
                 n = self.space.orders[j]
                 if n:
+                    p, w = self.power_element(j)
                     equal(self.power(i, self.image(i, j), n),
-                          (self.reduce(self.rho[i] @ self.tails[j, j]), (0,)*i))
+                          self.alpha(i, (p, w+(0,)*(i-j))))
             n = self.space.orders[i]
             if n:
-                p = self.tails[i, i]
-                equal((self.reduce(self.rho[i] @ p), (0,)*i), (p, (0,)*i))
+                p = self.power_element(i)
+                equal(self.alpha(i, p), p)
                 for j in range(i):
-                    a, word = self.alpha_power(i, self.generator(i, j), n)
-                    equal((a, word), (self.reduce(p-self.rho[j] @ p), word))
+                    g = self.generator(i, j)
+                    equal(self.mul(i, self.alpha_power(i, g, n), p),
+                          self.mul(i, p, g))
         equal((self.reduce(2*self.spin), ()), (self.zero, ()))
         for rho in self.rho:
             equal((self.reduce(rho @ self.spin), ()), (self.spin, ()))
@@ -207,7 +217,9 @@ class ExtensionCollector:
         tails = []
         for i, j in self.relations:
             if i == j:
-                tail = collector.power(self.k, shifted[i], self.space.orders[i])[0]
+                w = self.space.power_word(i)+(0,)*(self.k-i)
+                tail = collector.reduce(collector.power(self.k, shifted[i], self.space.orders[i])[0]
+                                        - lifted_word(w)[0])
             else:
                 left = collector.mul(self.k, shifted[i], shifted[j])
                 w = self.space.conjugate_word(i, j)+(0,)*(self.k-i)

@@ -1,10 +1,13 @@
 # QSL classification
 
-[![arXiv](https://img.shields.io/badge/arXiv-2309.05118-b31b1b.svg)](https://arxiv.org/abs/2309.05118)
+[![arXiv](https://img.shields.io/badge/arXiv-2309.15118-b31b1b.svg)](https://arxiv.org/abs/2309.15118)
 
 A Python package for symmetry enrichment of finite UMTCs supplied in the
 `umtc-data` JSON format. The computation uses the category's fusion, F/R,
 intrinsic symmetry, U, and reference eta data, without category-name dispatch.
+Version **0.2.0** supports **all 17 wallpaper groups**, each with SO(3) and
+with or without an independent time reversal: 34 symmetry settings.
+All 276 v0.1.0 paper-example results are preserved exactly.
 
 ## Quick start from downloaded folders
 
@@ -91,8 +94,8 @@ For common setup errors, see [troubleshooting](#troubleshooting).
 import json
 from qsl_classification import classify, eta_from_json
 
-result = classify('p4*SO(3)', ['1 a', '1 b'],
-                  'examples/u1_2.json', verbose=True)
+result = classify(10, ['1 a', '1 b'], 'examples/u1_2.json',
+                  time_reversal=False, verbose=True)
 print(json.dumps(result, indent=2))
 descriptor = result['homomorphisms'][0]['realizations'][0]['eta_symbol']
 eta = eta_from_json(descriptor, 'examples/u1_2.json')
@@ -100,15 +103,51 @@ value = eta((1,), {'translation': [100, -27], 'rotation': 2},
                     {'spin': [0, 1, 0, 0]})
 ```
 
-Supported groups are `p4*SO(3)`, `p6*SO(3)`, `p4m*O(3)`, and `p6m*O(3)`.
-Here O(3) means SO(3) × Z₂ᵀ; under crystalline equivalence both M and T
-are antiunitary. The connected SO(3) factor maps trivially to the finite
+Use the **plane-group IT number, 1–17**, as an integer or string:
+
+```python
+classify(7, ['2 c'], 'examples/toric_code.json',
+         time_reversal=True, verbose=False)
+```
+
+The call classifies P × SO(3) × Z₂ᵀ when `time_reversal=True`, and
+P × SO(3) when it is false. For IT-number or bare wallpaper-name input,
+time reversal defaults to **True**; verbose output defaults to **False**.
+The old four group-string calls still work, including their positional
+`verbose` argument. New IT-number calls also accept positional
+`time_reversal, verbose` arguments.
+
+| IT | Name | IT | Name | IT | Name |
+|---:|---|---:|---|---:|---|
+| 1 | p1 | 7 | pmg | 13 | p3 |
+| 2 | p2 | 8 | pgg | 14 | p3m1 |
+| 3 | pm | 9 | cmm | 15 | p31m |
+| 4 | pg | 10 | p4 | 16 | p6 |
+| 5 | cm | 11 | p4m | 17 | p6m |
+| 6 | pmm | 12 | p4g | | |
+
+Bilbao's long names, such as `p2mg`, `p4mm`, and `p6mm`, are accepted too.
+An explicit `*SO(3)` suffix omits independent T; `*O(3)` includes it.
+Conflicting suffixes and `time_reversal` arguments are rejected.
+
+Under crystalline equivalence, **every reflection and glide is antiunitary**,
+whether or not independent T is present. The grading is spatial orientation
+reversal plus T parity modulo two. A reflection times T is unitary; a glide
+retains its translation-valued square. SO(3) maps trivially to the finite
 intrinsic symmetry group.
 
-IWPs are occupied half-odd-integer-spin orbits: p4/p4m use `1 a`, `1 b`,
-`2 c`; p6/p6m use `1 a`, `2 b`, `3 c`. The empty list is trivial lattice
-homotopy. Repeated orbits add modulo two, and p6's `2 b` orbit is homotopically
-trivial. Integer-spin orbits need not be listed.
+WPs use **Bilbao's standard letters and conventional-cell multiplicities**.
+Each entry denotes one occupied half-odd-integer-spin orbit, including
+general positions. Repeated entries add modulo two; integer-spin orbits
+need not be listed. For example, `pg` accepts `2 a`, and centered `cm`
+accepts `2 a` and `4 b`. The empty list has trivial lattice homotopy.
+See the [complete WP catalogue and coordinate conventions](docs/wallpaper-groups.md),
+or inspect it in Python:
+
+```python
+from qsl_classification import wallpaper_groups
+print(wallpaper_groups()[6])  # IT 7: pmg / p2mg
+```
 
 The return value is a JSON-compatible dictionary. Every literal graded
 homomorphism appears with its generator images, realization count, and
@@ -120,21 +159,27 @@ anyon-enrichment counts; stacking additional SPT phases is excluded.
 With `verbose=True`, each realization contains a declarative, serializable
 eta-function descriptor. `eta_from_json` reconstructs the callable on the
 infinite group. JSON itself cannot contain Python functions. Elements are
-wallpaper tuples `(x,y,c)` / `(x,y,c,m,t)` or dictionaries with `translation`,
+wallpaper tuples in the returned `generator_images` order or dictionaries with `translation`,
 `rotation`, `mirror`, `time_reversal`, and `spin`. Spin rotations use unit
 quaternions `[w,x,y,z]`; q and -q describe the same SO(3) element. A canonical
 SU(2) section supplies w₂. Translations are arbitrary integers.
+For glide groups, the dictionary's `mirror` field is the power of the glide
+generator L; its square automatically contributes the appropriate translation.
+The generators use primitive coordinates; centered conventional-cell
+coordinates and Wyckoff multiplicities are distinguished in the WP catalogue.
 
 ## Command line and paper examples
 
 ```sh
 qsl-classify 'p4*SO(3)' examples/su2_k6.json --output result.json
 qsl-classify 'p6m*O(3)' examples/toric_code.json --iwp '1 a' --verbose
+qsl-classify 7 examples/toric_code.json --wp '2 c' --verbose
+qsl-classify 4 examples/toric_code.json --wp '2 a' --no-time-reversal
 ```
 
 The [examples folder](examples/README.md) contains all 26 UMTC JSON files.
 Run the short [example script](run_examples.py) to cover all 276
-catalogued cases for the four supported groups:
+catalogued cases for the four groups studied in the papers:
 
 ```sh
 python run_examples.py
@@ -159,13 +204,26 @@ includes absolute local paths or paper comparisons. Use
 `python scripts/validate_papers.py` for the separate comparison with published
 counts; its five known disagreements are documented below.
 
+To run all 34 symmetry settings on one category:
+
+```sh
+python run_wallpaper_examples.py
+python run_wallpaper_examples.py examples/double_semion.json
+```
+
 The input must contain valid UMTC data and a coherent reference action of its
 full intrinsic symmetry group. The classifier uses that supplied group; it
 does not discover omitted automorphisms. `symmetry: null` declares a trivial
 intrinsic group. Use `umtc-check` to check input coherence. Enumeration is
 finite but grows with the size of H²; verbose output can be very large.
+Large cyclic 2-power sectors use exact quadratic-constraint solving.
+Product-manifold reference anomalies use existing indicators where possible,
+then a full F/R/U/eta state sum. The general non-Abelian state-sum fallback
+can be expensive; there is no uniform runtime guarantee for arbitrary UMTCs.
 
 See [the algorithm](docs/algorithm.md) and [validation](docs/validation.md).
+The [all-group anomaly catalogue](docs/anomaly-indicators-all-wallpaper-groups.md)
+records the indicator bases and target signs.
 
 Validation matches 271 of 276 printed comparisons. Five cases expose an
 additional order-three cohomology sector in the first paper; the general
